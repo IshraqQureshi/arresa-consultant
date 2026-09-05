@@ -545,12 +545,25 @@ section {
   .hero-title {
     font-size: 2.25rem;
   }
+  .hero-inner {
+    text-align: left;
+  }
+  .hero-badge {
+    margin-inline: 0;
+  }
+  .hero-text {
+    margin-inline: 0;
+  }
   .hero-actions {
     flex-direction: column;
     width: 100%;
+    justify-content: flex-start;
   }
   .hero-actions .btn {
     width: 100%;
+  }
+  .hero-media {
+    display: none;
   }
 }
 
@@ -674,6 +687,18 @@ section {
   }
   .tab-panel {
     padding: 32px 24px;
+  }
+}
+@media (max-width: 640px) {
+  .tab-list {
+    flex-direction: column;
+    overflow-x: visible;
+    border-bottom: none;
+  }
+  .tab-btn {
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+    white-space: normal;
   }
 }
 
