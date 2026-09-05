@@ -1,3 +1,5 @@
+import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import Header from "./components/Header.jsx";
 import Hero from "./components/Hero.jsx";
 import Services from "./components/Services.jsx";
@@ -23,6 +25,8 @@ export default function App() {
         <CTA />
       </main>
       <Footer />
+      <Analytics />
+      <SpeedInsights />
     </>
   );
 }
