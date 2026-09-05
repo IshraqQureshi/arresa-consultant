@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="container">
         <div className="footer-grid">
           <div className="footer-brand">
-            <img src="/img/logo.png" alt="Arresa Consultant" width="163" height="66" />
+            <img src="/img/logo.png" alt="Arresa Consultant" width="163" height="66" fetchPriority="low" />
             <p>Helping Kenyan entrepreneurs build U.S. businesses — completely online, affordable, and stress-free.</p>
           </div>
 

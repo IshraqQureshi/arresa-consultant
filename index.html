@@ -54,8 +54,10 @@
       />
     </noscript>
 
-    <!-- LCP image: fetch it as early as possible, in parallel with the JS bundle -->
-    <link rel="preload" as="image" href="/img/hero-image.jpeg" fetchpriority="high" />
+    <!-- LCP element: the full-bleed hero background wins LCP (largest painted
+         area), so it gets sole preload priority — competing preloads split
+         bandwidth under throttling and slow down whichever "wins" anyway. -->
+    <link rel="preload" as="image" href="/img/hero-bg.jpeg" fetchpriority="high" />
 
     <!-- Structured data -->
     <script type="application/ld+json">

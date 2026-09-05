@@ -18,7 +18,7 @@ export default function Header() {
     <header className="site-header">
       <div className="container header-inner">
         <a href="#top" className="brand" aria-label="Arresa Consultant home">
-          <img src="/img/logo.png" alt="Arresa Consultant" width="109" height="44" />
+          <img src="/img/logo.png" alt="Arresa Consultant" width="109" height="44" fetchPriority="low" />
         </a>
 
         <nav className="nav-desktop" aria-label="Primary">

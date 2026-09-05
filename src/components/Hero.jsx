@@ -37,7 +37,6 @@ export default function Hero() {
               width="420"
               height="483"
               loading="eager"
-              fetchPriority="high"
             />
           </div>
           <div className="hero-media-badge">
