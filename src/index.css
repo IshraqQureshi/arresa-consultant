@@ -893,7 +893,7 @@ section {
   padding-block: 106px;
 }
 .who-we-are .eyebrow {
-  color: #1a6fd4;
+  color: #1558b0;
   font-size: 0.875rem;
   font-weight: 600;
   letter-spacing: 0.1em;
@@ -1018,7 +1018,7 @@ section {
   }
 }
 .cta .section-sub {
-  color: #dbeafe;
+  color: #ffffff;
   font-size: 1.125rem;
   line-height: 1.625;
   margin-bottom: 40px;
@@ -1037,6 +1037,23 @@ section {
   text-align: left;
   padding: 0;
   overflow: hidden;
+  min-height: 480px;
+}
+
+/* If the HubSpot embed script is slow, blocked, or fails outright, this
+   keeps the section from collapsing to nothing while it loads. */
+.hubspot-form-wrap {
+  min-height: 480px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hubspot-form-wrap:empty::before {
+  content: "Loading the enquiry form…";
+  color: var(--text-muted);
+  font-size: 0.9375rem;
+  padding: 40px;
+  text-align: center;
 }
 .form-card h3 {
   font-size: 1.375rem;
@@ -1189,7 +1206,7 @@ section {
   font-size: 0.9375rem;
   max-width: 34ch;
 }
-.footer-col h4 {
+.footer-col h3 {
   color: #fff;
   font-family: var(--font-sans);
   font-size: 0.95rem;

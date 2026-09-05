@@ -11,7 +11,7 @@ export default function Footer() {
           </div>
 
           <div className="footer-col">
-            <h4>Contact</h4>
+            <h3>Contact</h3>
             <ul className="footer-contact">
               <li>📍 Based in Kenya</li>
               <li>🌐 Serving clients internationally</li>
