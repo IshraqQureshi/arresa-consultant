@@ -101,7 +101,7 @@ export default function CTA() {
         </p>
 
         <div className="form-card">
-          <h3>Get Started Today</h3>
+          {/* <h3>Get Started Today</h3> */}
           {hubspotReady ? <HubspotForm /> : <PlaceholderForm />}
         </div>
       </div>
