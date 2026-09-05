@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+# Source design files (not part of the built site)
+/design
+/figma-assets
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
