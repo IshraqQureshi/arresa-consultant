@@ -3,9 +3,9 @@
 //
 // Where to find these values: HubSpot > Marketing > Forms > (your form) > Embed code.
 export const HUBSPOT_CONFIG = {
-  region: "", // e.g. "na1"
-  portalId: "", // e.g. "12345678"
-  formId: "", // e.g. "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+  region: "eu1",
+  portalId: "149263675",
+  formId: "b5d61c58-e1ef-4fdc-991f-ee242e8218a2",
 };
 
 export const isHubspotConfigured = () =>
